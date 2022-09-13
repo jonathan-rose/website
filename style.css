@@ -2,3 +2,8 @@
     text-align: center;
     margin: auto;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
