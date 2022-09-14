@@ -3,7 +3,17 @@
     margin: auto;
 }
 
-main {
+.grid-container {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-item {
+    background-color: cornsilk;
+    padding-left: 25px;
+    padding-right: 25px;
 }
